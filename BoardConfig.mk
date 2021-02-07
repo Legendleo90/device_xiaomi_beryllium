@@ -98,6 +98,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
 TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(DEVICE_PATH):libperfmgr-ext-xiaomi
+TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/props/odm.prop
