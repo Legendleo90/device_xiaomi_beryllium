@@ -43,6 +43,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/beryllium
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
 
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := beryllium
 
