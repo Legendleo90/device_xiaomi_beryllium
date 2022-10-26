@@ -34,6 +34,15 @@ ro.vendor.display.sensortype=2
 # fastbootd
 ro.fastbootd.available=true
 
+# Fling
+ro.min.fling_velocity=160 
+ro.max.fling_velocity=20000
+ro.max.fling_velocity=20000 
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Graphics
 debug.sf.auto_latch_unsignaled=0
 debug.sf.disable_backpressure=1
