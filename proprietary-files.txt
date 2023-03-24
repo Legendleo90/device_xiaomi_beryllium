@@ -1154,10 +1154,10 @@ vendor/etc/thermal-engine-sdm845-tgame.conf
 vendor/etc/thermal-engine-sdm845.conf
 vendor/etc/thermal-engine.conf
 
-# Thermal engine
-vendor/bin/thermal-engine
-vendor/lib64/libthermalclient.so
-vendor/lib/libthermalclient.so
+# Thermal engine - from crosshatch - RP1A.200720.009
+vendor/bin/thermal-engine|94906caffc5e9a62707770364b8403c2fc4b5dbf
+vendor/lib64/libthermalclient.so|698d10e9af1489b24d8d65318e141a99de3f2e12
+vendor/lib/libthermalclient.so|984a40b53fc659ee3c99044ce0b42bcb69ad079a
 
 # Time services - from PNX - RKQ1.200906.002
 vendor/app/TimeService/TimeService.apk|2e5301dbe5f494c90f602577478f59e0452506b8
