@@ -13,3 +13,7 @@ git clone https://github.com/Legendleo90/vendor_miuicamera.git -b fourteen vendo
 # Hardware
 rm -rf hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi
+
+# Viper4FX
+rm -rf packages/apps/ViPER4AndroidFX
+git clone https://github.com/Legendleo90/packages_apps_ViPER4AndroidFX -b v4a packages/apps/ViPER4AndroidFX
