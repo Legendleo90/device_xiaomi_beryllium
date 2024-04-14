@@ -51,7 +51,7 @@
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.sound" />
+                       android:value="com.android.settings.category.ia.system" />
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/dirac_summary" />
         </activity>
@@ -68,7 +68,7 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.display" />
+                android:value="com.android.settings.category.ia.system" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/doze_summary" />
         </activity>
@@ -81,13 +81,10 @@
             </intent-filter>
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.battery" />
+                android:value="com.android.settings.category.ia.system" />
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/thermal_summary" />
-            <meta-data
-                android:name="com.android.settings.order"
-                android:value="1" />
         </activity>
 
         <service
@@ -114,7 +111,7 @@
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.sound" />
+                       android:value="com.android.settings.category.ia.system" />
         </activity>
     </application>
 </manifest>
