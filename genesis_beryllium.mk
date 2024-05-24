@@ -4,13 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from beryllium device
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Genesis stuff.
+$(call inherit-product, vendor/genesis/config/common_full_phone.mk)
+
+# GenesisOS Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_ENABLE_BLUR := false
+GENESIS_OFFICIAL := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := genesis_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
