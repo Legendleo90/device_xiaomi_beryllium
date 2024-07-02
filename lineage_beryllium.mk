@@ -4,10 +4,23 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Inherit from beryllium device
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# RisingTechOSS Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# GMS
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+
+# Maintainer
+RISING_MAINTAINER=Akshat
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
@@ -22,6 +35,7 @@ BUILD_FINGERPRINT := "Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V12.0.3.0.QE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="beryllium-user 10 QKQ1.190828.002 V12.0.3.0.QEJMIXM release-keys" \
-    TARGET_PRODUCT="beryllium"
+    TARGET_PRODUCT="beryllium" \
+    RISING_MAINTAINER="Akshat"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
