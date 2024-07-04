@@ -13,3 +13,7 @@ git clone https://github.com/Legendleo90/vendor_miuicamera.git -b fourteen vendo
 # Hardware
 rm -rf hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-21 hardware/xiaomi
+
+# BCR
+rm -rf vendor/bcr
+git clone https://github.com/Legendleo90/vendor_bcr.git -b main vendor/bcr
