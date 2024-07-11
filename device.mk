@@ -487,3 +487,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/beryllium/beryllium-vendor.mk)
+
+# Inherit private keys
+include vendor/lineage-priv/keys/keys.mk
