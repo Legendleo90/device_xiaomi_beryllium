@@ -12,6 +12,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # RisingTechOSS Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 # Maintainer
 RISING_MAINTAINER=Akshat
